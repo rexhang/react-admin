@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0}
+
+.active{
+    color: red;
+}
+html, body, #root{
+    width: 100%;
+    height: 100%;
+}
+
+.fullScreen{
+    width: 100%;
+    height: 100%;
+}
+.rightContent{
+    width: calc(100% - 220px);
+    height: 100%;
+    overflow: auto;
+    float: right;
+    box-sizing: border-box;
+    transition: all .3s;
+}

@@ -1,0 +1,16 @@
+.App{
+    border: 1px solid red;
+    filter: url('../img/logo.svg'); /* FireFox, Chrome, Opera */
+    
+    -webkit-filter: blur(1px); /* Chrome, Opera */
+       -moz-filter: blur(1px);
+        -ms-filter: blur(1px);    
+            filter: blur(1px);
+    
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+        .App-logo{
+            width: 100px;
+            height: 100px;
+        }
+}
+

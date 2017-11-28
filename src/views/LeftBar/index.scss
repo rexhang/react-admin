@@ -1,0 +1,38 @@
+.leftBar{
+    width: 220px;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    /* ul{
+        display: block;
+        li{
+            width: 100%;
+            text-align: center;
+            font-size: 22px;
+            border: 1px solid #4469a0;
+            height: 60px;
+            line-height: 60px;
+        }
+    } */
+    .lists{
+        display: block;
+        width: 100%;
+        li{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .icon-pos{
+        position: relative;
+        .isicon{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+        }
+        .isicon-r{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+        }
+    }
+}
